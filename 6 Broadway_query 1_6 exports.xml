@@ -1,0 +1,517 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Susan Marla Howell</Author>
+  <LastAuthor>Susan Marla Howell</LastAuthor>
+  <LastPrinted>2015-12-10T16:35:15Z</LastPrinted>
+  <Created>2015-12-08T14:21:20Z</Created>
+  <LastSaved>2015-12-10T16:43:36Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9300</WindowHeight>
+  <WindowWidth>12930</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <FirstVisibleSheet>1</FirstVisibleSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Normal 3">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64" ss:Name="Normal 4">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65" ss:Name="Normal 6">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="LOCAL_DATE_SEPARATOR"
+   ss:RefersTo="=INDEX(GET.WORKSPACE(37),17)" ss:Hidden="1"/>
+  <NamedRange ss:Name="LOCAL_DAY_FORMAT" ss:RefersTo="=INDEX(GET.WORKSPACE(37),21)"
+   ss:Hidden="1"/>
+  <NamedRange ss:Name="LOCAL_HOUR_FORMAT"
+   ss:RefersTo="=INDEX(GET.WORKSPACE(37),22)" ss:Hidden="1"/>
+  <NamedRange ss:Name="LOCAL_MINUTE_FORMAT"
+   ss:RefersTo="=INDEX(GET.WORKSPACE(37),23)" ss:Hidden="1"/>
+  <NamedRange ss:Name="LOCAL_MONTH_FORMAT"
+   ss:RefersTo="=INDEX(GET.WORKSPACE(37),20)" ss:Hidden="1"/>
+  <NamedRange ss:Name="LOCAL_MYSQL_DATE_FORMAT"
+   ss:RefersTo="=REPT(LOCAL_YEAR_FORMAT,4)&amp;LOCAL_DATE_SEPARATOR&amp;REPT(LOCAL_MONTH_FORMAT,2)&amp;LOCAL_DATE_SEPARATOR&amp;REPT(LOCAL_DAY_FORMAT,2)&amp;&quot; &quot;&amp;REPT(LOCAL_HOUR_FORMAT,2)&amp;LOCAL_TIME_SEPARATOR&amp;REPT(LOCAL_MINUTE_FORMAT,2)&amp;LOCAL_TIME_SEPARATOR&amp;REPT(LOCAL_SECOND_FORMAT,2)"
+   ss:Hidden="1"/>
+  <NamedRange ss:Name="LOCAL_SECOND_FORMAT"
+   ss:RefersTo="=INDEX(GET.WORKSPACE(37),24)" ss:Hidden="1"/>
+  <NamedRange ss:Name="LOCAL_TIME_SEPARATOR"
+   ss:RefersTo="=INDEX(GET.WORKSPACE(37),18)" ss:Hidden="1"/>
+  <NamedRange ss:Name="LOCAL_YEAR_FORMAT"
+   ss:RefersTo="=INDEX(GET.WORKSPACE(37),19)" ss:Hidden="1"/>
+ </Names>
+ <Worksheet ss:Name="Query 1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="163.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="110.25"/>
+   <Column ss:StyleID="s62" ss:Width="253.5"/>
+   <Column ss:StyleID="s68" ss:Width="63"/>
+   <Column ss:StyleID="s68" ss:Width="42"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CharityName</Data></Cell>
+    <Cell><Data ss:Type="String">PatternName</Data></Cell>
+    <Cell><Data ss:Type="String">Source</Data></Cell>
+    <Cell><Data ss:Type="String">FiberWeight</Data></Cell>
+    <Cell><Data ss:Type="String">Yardage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Knots of Love</Data></Cell>
+    <Cell><Data ss:Type="String">Stretch Knit Hat</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.headhuggers.org/patterns/kpatt08.htm</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Knots of Love</Data></Cell>
+    <Cell><Data ss:Type="String">Hallowig</Data></Cell>
+    <Cell><Data ss:Type="String">http://knitty.com/ISSUEfall04/PATThallowig.html</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Knots of Love</Data></Cell>
+    <Cell><Data ss:Type="String">Hairy Chemo cap</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.headhuggers.org/patterns/kpatt10.htm</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tenderhearted Volunteer Project</Data></Cell>
+    <Cell><Data ss:Type="String">Stretch Knit Hat</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.headhuggers.org/patterns/kpatt08.htm</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tenderhearted Volunteer Project</Data></Cell>
+    <Cell><Data ss:Type="String">Hallowig</Data></Cell>
+    <Cell><Data ss:Type="String">http://knitty.com/ISSUEfall04/PATThallowig.html</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tenderhearted Volunteer Project</Data></Cell>
+    <Cell><Data ss:Type="String">Hairy Chemo cap</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.headhuggers.org/patterns/kpatt10.htm</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Query 2">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="110.25" ss:Span="1"/>
+   <Column ss:Index="3" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:StyleID="s62" ss:Width="96.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MemberFirstName</Data></Cell>
+    <Cell><Data ss:Type="String">MemberLastName</Data></Cell>
+    <Cell><Data ss:Type="String">State</Data></Cell>
+    <Cell><Data ss:Type="String">NumberOfProducts</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pam</Data></Cell>
+    <Cell><Data ss:Type="String">Dean</Data></Cell>
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Query 3">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="94.5"/>
+   <Column ss:StyleID="s62" ss:Width="92.25"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MemberFirstName</Data></Cell>
+    <Cell><Data ss:Type="String">MemberLastName</Data></Cell>
+    <Cell><Data ss:Type="String">Yardage</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">YarnName</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cindy</Data></Cell>
+    <Cell><Data ss:Type="String">Kvamme</Data></Cell>
+    <Cell><Data ss:Type="Number">1480</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Homespun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nicole</Data></Cell>
+    <Cell><Data ss:Type="String">Perry</Data></Cell>
+    <Cell><Data ss:Type="Number">710</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Homespun</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Query 4">
+  <Names>
+   <NamedRange ss:Name="LOCAL_MYSQL_DATE_FORMAT"
+    ss:RefersTo="=REPT(LOCAL_YEAR_FORMAT,4)&amp;LOCAL_DATE_SEPARATOR&amp;REPT(LOCAL_MONTH_FORMAT,2)&amp;LOCAL_DATE_SEPARATOR&amp;REPT(LOCAL_DAY_FORMAT,2)&amp;&quot; &quot;&amp;REPT(LOCAL_HOUR_FORMAT,2)&amp;LOCAL_TIME_SEPARATOR&amp;REPT(LOCAL_MINUTE_FORMAT,2)&amp;LOCAL_TIME_SEPARATOR&amp;REPT(LOCAL_SECOND_FORMAT,2)"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="110.25"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">YarnName</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Camo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fiesta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jelli Beenz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vanna's Choice</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wool Ease</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wool of the Andes</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Query 5">
+  <Names>
+   <NamedRange ss:Name="LOCAL_MYSQL_DATE_FORMAT"
+    ss:RefersTo="=REPT(LOCAL_YEAR_FORMAT,4)&amp;LOCAL_DATE_SEPARATOR&amp;REPT(LOCAL_MONTH_FORMAT,2)&amp;LOCAL_DATE_SEPARATOR&amp;REPT(LOCAL_DAY_FORMAT,2)&amp;&quot; &quot;&amp;REPT(LOCAL_HOUR_FORMAT,2)&amp;LOCAL_TIME_SEPARATOR&amp;REPT(LOCAL_MINUTE_FORMAT,2)&amp;LOCAL_TIME_SEPARATOR&amp;REPT(LOCAL_SECOND_FORMAT,2)"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="16" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s65" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="110.25" ss:Span="4"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">State</Data></Cell>
+    <Cell><Data ss:Type="String">ClubName</Data></Cell>
+    <Cell><Data ss:Type="String">CharityName</Data></Cell>
+    <Cell><Data ss:Type="String">MemberFirstName</Data></Cell>
+    <Cell><Data ss:Type="String">MemberLastName</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell><Data ss:Type="String">Windy City Knitters</Data></Cell>
+    <Cell><Data ss:Type="String">Project Linus</Data></Cell>
+    <Cell><Data ss:Type="String">Cassie</Data></Cell>
+    <Cell><Data ss:Type="String">Wagner</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell><Data ss:Type="String">Windy City Knitters</Data></Cell>
+    <Cell><Data ss:Type="String">Project Linus</Data></Cell>
+    <Cell><Data ss:Type="String">Dee</Data></Cell>
+    <Cell><Data ss:Type="String">Wise</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell><Data ss:Type="String">Windy City Knitters</Data></Cell>
+    <Cell><Data ss:Type="String">Project Linus</Data></Cell>
+    <Cell><Data ss:Type="String">Alicia</Data></Cell>
+    <Cell><Data ss:Type="String">Carpenter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell><Data ss:Type="String">Windy City Knitters</Data></Cell>
+    <Cell><Data ss:Type="String">Project Linus</Data></Cell>
+    <Cell><Data ss:Type="String">Tawanda</Data></Cell>
+    <Cell><Data ss:Type="String">Miller</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell><Data ss:Type="String">Windy City Knitters</Data></Cell>
+    <Cell><Data ss:Type="String">Project Linus</Data></Cell>
+    <Cell><Data ss:Type="String">Skler</Data></Cell>
+    <Cell><Data ss:Type="String">Hewerdine</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IL</Data></Cell>
+    <Cell><Data ss:Type="String">Windy City Knitters</Data></Cell>
+    <Cell><Data ss:Type="String">Project Linus</Data></Cell>
+    <Cell><Data ss:Type="String">Pam</Data></Cell>
+    <Cell><Data ss:Type="String">Dean</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OR</Data></Cell>
+    <Cell><Data ss:Type="String">Yarnworks</Data></Cell>
+    <Cell><Data ss:Type="String">Snuggles Project</Data></Cell>
+    <Cell><Data ss:Type="String">Katlynn</Data></Cell>
+    <Cell><Data ss:Type="String">Dodd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OR</Data></Cell>
+    <Cell><Data ss:Type="String">Yarnworks</Data></Cell>
+    <Cell><Data ss:Type="String">Snuggles Project</Data></Cell>
+    <Cell><Data ss:Type="String">Jill</Data></Cell>
+    <Cell><Data ss:Type="String">Calcaterra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OR</Data></Cell>
+    <Cell><Data ss:Type="String">Yarnworks</Data></Cell>
+    <Cell><Data ss:Type="String">Snuggles Project</Data></Cell>
+    <Cell><Data ss:Type="String">Kaci</Data></Cell>
+    <Cell><Data ss:Type="String">Leukens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OR</Data></Cell>
+    <Cell><Data ss:Type="String">Yarnworks</Data></Cell>
+    <Cell><Data ss:Type="String">Snuggles Project</Data></Cell>
+    <Cell><Data ss:Type="String">Brooke</Data></Cell>
+    <Cell><Data ss:Type="String">Barlow</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OR</Data></Cell>
+    <Cell><Data ss:Type="String">Yarnworks</Data></Cell>
+    <Cell><Data ss:Type="String">Snuggles Project</Data></Cell>
+    <Cell><Data ss:Type="String">Kathy</Data></Cell>
+    <Cell><Data ss:Type="String">McBride</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OR</Data></Cell>
+    <Cell><Data ss:Type="String">Yarnworks</Data></Cell>
+    <Cell><Data ss:Type="String">Snuggles Project</Data></Cell>
+    <Cell><Data ss:Type="String">Betsy</Data></Cell>
+    <Cell><Data ss:Type="String">Coffey</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TX</Data></Cell>
+    <Cell><Data ss:Type="String">Knitting for the Soul</Data></Cell>
+    <Cell><Data ss:Type="String">Warm Up America</Data></Cell>
+    <Cell><Data ss:Type="String">Cali</Data></Cell>
+    <Cell><Data ss:Type="String">Bernardoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TX</Data></Cell>
+    <Cell><Data ss:Type="String">Knitting for the Soul</Data></Cell>
+    <Cell><Data ss:Type="String">Warm Up America</Data></Cell>
+    <Cell><Data ss:Type="String">Kym</Data></Cell>
+    <Cell><Data ss:Type="String">Mills</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TX</Data></Cell>
+    <Cell><Data ss:Type="String">Knitting for the Soul</Data></Cell>
+    <Cell><Data ss:Type="String">Warm Up America</Data></Cell>
+    <Cell><Data ss:Type="String">Melanie</Data></Cell>
+    <Cell><Data ss:Type="String">Cox</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Query 6">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="78"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUM(TotalCost)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">96.06</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Query 7">
+  <Names>
+   <NamedRange ss:Name="LOCAL_MYSQL_DATE_FORMAT"
+    ss:RefersTo="=REPT(LOCAL_YEAR_FORMAT,4)&amp;LOCAL_DATE_SEPARATOR&amp;REPT(LOCAL_MONTH_FORMAT,2)&amp;LOCAL_DATE_SEPARATOR&amp;REPT(LOCAL_DAY_FORMAT,2)&amp;&quot; &quot;&amp;REPT(LOCAL_HOUR_FORMAT,2)&amp;LOCAL_TIME_SEPARATOR&amp;REPT(LOCAL_MINUTE_FORMAT,2)&amp;LOCAL_TIME_SEPARATOR&amp;REPT(LOCAL_SECOND_FORMAT,2)"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="110.25" ss:Span="1"/>
+   <Column ss:Index="3" ss:StyleID="s64" ss:Width="163.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PatternName</Data></Cell>
+    <Cell><Data ss:Type="String">ProductType</Data></Cell>
+    <Cell><Data ss:Type="String">CharityName</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hairy Chemo cap</Data></Cell>
+    <Cell><Data ss:Type="String">hat</Data></Cell>
+    <Cell><Data ss:Type="String">Knots of Love</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hallowig</Data></Cell>
+    <Cell><Data ss:Type="String">hat</Data></Cell>
+    <Cell><Data ss:Type="String">Tenderhearted Volunteer Project</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stretch Knit Hat</Data></Cell>
+    <Cell><Data ss:Type="String">hat</Data></Cell>
+    <Cell><Data ss:Type="String">Tenderhearted Volunteer Project</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WUA Basic Rectangle</Data></Cell>
+    <Cell><Data ss:Type="String">blanket</Data></Cell>
+    <Cell><Data ss:Type="String">Warm Up America</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>23</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
